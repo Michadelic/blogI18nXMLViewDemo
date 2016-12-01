@@ -6,7 +6,7 @@ i18n texts with placeholders in XML views demo for an SCN blog
 Run instructions
 ==================
 
-* Open the (github-pages preview)[https://htmlpreview.github.io/?https://github.com/Michadelic/blogI18nXMLViewDemo/webapp/index.html] of this repository
+* Open the (github-pages preview)[http://htmlpreview.github.io/?https://github.com/Michadelic/blogI18nXMLViewDemo/blob/master/webapp/index.html] of this repository
 
 Have fun,
 Michael
