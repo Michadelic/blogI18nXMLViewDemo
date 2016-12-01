@@ -1,0 +1,21 @@
+<mvc:View controllerName="blogDemo.controller.DemoView" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:l="sap.ui.layout">
+	<App>
+		<pages>
+			<Page title="{i18n>title}" class="sapUiContentPadding">
+				<content>
+					<l:HorizontalLayout>
+						<Button text="{i18n>donateButton}" press="showMessage"></Button>
+						
+						<Label class="sapUiSmallMargin" text="{parts: [
+							'i18n>donateText',
+							'view>/number'
+						],
+						formatter: 'jQuery.sap.formatMessage'}"/>
+					</l:HorizontalLayout>
+					
+						
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
